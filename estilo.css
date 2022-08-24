@@ -12,7 +12,7 @@
     margin: 0;
     flex-direction: row;
     align-items: center;
-   
+
 }
 
 
@@ -23,15 +23,18 @@
     margin-left: 20px;
 }
 
-.menuLink a:visited,.menuLink a:link,.menuLink a:hover, .menuLink a:active{
+.menuLink a:visited,
+.menuLink a:link,
+.menuLink a:hover,
+.menuLink a:active {
     text-decoration: none;
-    color:gray;
+    color: gray;
 }
 
 
 /* main*/
 
-.slide img{
+.slide img {
     width: 100%;
     height: auto;
 }
@@ -45,21 +48,21 @@
 
 }
 
-.title span{
-  font-family: 'Open sans';
-  font-size: 60px;
-  font-weight: bold;
+.title span {
+    font-family: 'Open sans';
+    font-size: 60px;
+    font-weight: bold;
 }
 
-.promo{
+.promo {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 60px;
 }
 
-.promo >img{
+.promo>img {
     margin: 25px;
     transform: scale(0.9);
 }
@@ -67,44 +70,106 @@
 .calcados {
     justify-content: center;
     align-items: center;
-    display: flex ;
+    display: flex;
     flex-direction: column;
-    background-color: #C2185B ;
+    background-color: #C2185B;
     width: 100%;
     padding-bottom: 70px;
 
 }
-.span{
+
+.span {
     font-family: 'Open sans';
     font-size: 30px;
     font-weight: bold;
     color: white;
     margin: 50px;
-    
-}
-.card >img{
-    width: 100%;
-    
 
 }
+
+.card>img {
+    width: 100%;
+
+
+}
+
 .card {
     background-color: white;
-    padding: 2px;
-    margin: 2px;
+    margin: 9px;
     justify-content: center;
     align-items: center;
     justify-content: flex-start;
     width: 100%;
 
 }
-.p{
+
+.card>p>span {
+    font-weight: 600;
+}
+
+.p {
     justify-content: flex-start;
     align-items: center;
     width: 100%;
 
 }
-.calcados1{
+
+.calcados1 {
     display: flex;
     justify-content: space-evenly;
 
+}
+
+/* Segunda section*/
+.title2 {
+    /*display: flex;*/
+
+}
+
+.spanSa span {
+    display: flex;
+    font-size: 43px;
+    width: 550px;
+    margin-top: 50px;
+    padding-left: 135px;
+    margin-bottom: -100px;
+}
+
+.verDetalhes {
+    display: flex;
+    background-color: #C2185B;
+    width: 350px;
+    height: 100px;
+    margin-left: 135px;
+    margin-top: 100px;
+    margin-bottom: -150px;
+    justify-content: center;
+    
+
+}
+
+.verDetalhes p {
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    color: white;
+    padding-bottom: 20px;
+    
+}
+
+.duasFotos {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+
+.duasFotos img{
+    margin: 2px;
+    transform: scale(0.9);
 }
