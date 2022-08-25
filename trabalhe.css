@@ -59,8 +59,8 @@
     line-height: 21px;
     color: #9B9B9B;
 }
-.form, input, label, select{
-   
+.textarea{
+    width: 400px;
 }
 .paragrafo{
     position: absolute;
@@ -71,5 +71,19 @@
     font-family: 'Open Sans';
     color: #575757;
     
+}
 
+.pergunta{
+    display: flex;
+    padding-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #777777;
+}
+
+.button{
+    width: 400px;
+    height: 30px;
+    background: #C2185B;
+    
 }
