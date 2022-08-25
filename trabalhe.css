@@ -1,8 +1,10 @@
 .cabecalho {
     padding: 0 10px;
-    border: 1px solid gray;
+    border: 1px;
     justify-content: space-between;
     display: flex;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
 
 }
 .linksCabecalho {
@@ -18,9 +20,56 @@
     font-size: 16px;
     color: #777;
     margin-left: 20px;
-}
+    margin-right: 20px;
+}    
 
 .menuLink a:visited,.menuLink a:link,.menuLink a:hover, .menuLink a:active{
     text-decoration: none;
-    color:gray;
+    color:#777777;
+
+}
+.header, h2{
+    position: absolute;
+    width: 585px;
+    height: 55px;
+    left: 230px;
+    top: 177px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 53px;
+    color: #575757;
+}
+.form{
+    position: absolute;
+    width: 585px;
+    height: 55px;
+    left: 230px;
+    top: 300px;
+}
+.form, input{
+    width: 400px;
+    height: 15gipx;
+}
+.form, input, label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9B9B9B;
+}
+.form, input, label, select{
+   
+}
+.paragrafo{
+    position: absolute;
+    width: 464px;
+    height: 448px;
+    left: 736px;
+    top: 270px;
+    font-family: 'Open Sans';
+    color: #575757;
+    
+
 }
