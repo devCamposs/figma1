@@ -57,7 +57,7 @@
 }
 .form, input, label{
     font-family: 'Roboto';
-    font-style:normal
+    font-style:normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 15px;
@@ -91,7 +91,7 @@
     background: #C2185B;
     color: #ffffff;
     border-radius: 20px;
-    transition-property:all 
+    transition-property:all;
     font-size: 0.8rem;
     border:none;
     transition: all 5s;
